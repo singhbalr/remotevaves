@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +34,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.section{
+  min-height: 83vh;
+  display: flex;
+  padding: 41px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.spacerDiv{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -11px;
+}
+
+
+.section1{
+  background-color: #001220;
+}
+
+.section2{
+  background-color: #323C52;
+}
+
+.wavePos{
+  height: 100%!important;
+  margin-top: -14vh;
+}
+.imgBackground{
+  background-image: url("./asset/logo1.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #001220;
+}
+
+nav li {
+  display: inline-block
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+nav li a:hover {
+  color: #7AC2E2;
 }
