@@ -59,7 +59,33 @@
 
 .section2{
   background-color: #323C52;
+  align-items: flex-start;
+  color: white;
 }
+
+.section2 .mission-container{
+  text-align: left;
+  font-size: 30px;
+  font-size: 10.5vw;
+  font-weight: bold;
+}
+.section2 .mission-caption{
+  font-size: 20px;
+}
+
+.section3{
+  background-color: #F8805D;
+}
+.section4{
+  background-color: #A852E1;
+}
+.section5{
+  background-color: #FAADBC;
+}
+.section6{
+  background-color: #FF4578;
+}
+
 
 .wavePos{
   height: 100%!important;
@@ -96,4 +122,23 @@ nav li a {
 
 nav li a:hover {
   color: #7AC2E2;
+}
+
+.service-list-container{
+  display: flex;
+  align-items: center;
+}
+.service-list-container .service-list-caption{
+  flex: 1;
+}
+.service-list-container .service-list-img{
+  flex: 1;
+}
+.service-list-container:last-child{
+  margin-bottom: 50px;
+}
+.service-list-caption{
+  font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
